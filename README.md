@@ -105,6 +105,51 @@ python run.py
 http://localhost:8000
 ```
 
+## 🖥️ App Screens
+
+### AIS Marine Traffic Analyzer (Desktop)
+
+```
++-------------------------------------------------------------+
+|                AIS Marine Traffic Analyzer                  |
++-------------------------------------------------------------+
+| [📂 Data Loading] [📊 Data Analysis] [🕵️‍♂️ Hidden Data] [⚠️ Risk] |
++-------------------------------------------------------------+
+|                                                             |
+|   (Main content area: table, charts, results, etc.)         |
+|                                                             |
++-------------------------------------------------------------+
+| Status bar: Ready                                           |
++-------------------------------------------------------------+
+```
+**Tabs:**
+- 📂 Data Loading: Import CSV, sample data, data table, charts
+- 📊 Data Analysis: Pattern/anomaly detection, analysis charts
+- 🕵️‍♂️ Hidden Data: Mine hidden patterns, correlations
+- ⚠️ Risk: Risk scores, risky routes, risk map
+
+### SpecObj-DR17 Analyzer
+
+```
++--------------------------------------------------------------------------------------+
+|                                SpecObj-DR17 Analyzer                                |
++--------------------------------------------------------------------------------------+
+| [📂 Data] [📊 Sample] [🕵️‍♂️ Hidden] [🤖 Prediction] [🧭 Direction]                      |
++--------------------------------------------------------------------------------------+
+|                                                                                      |
+|   (Main content area: interactive table, stats, results, charts, etc.)               |
+|                                                                                      |
++--------------------------------------------------------------------------------------+
+| Status bar: Ready                                                                    |
++--------------------------------------------------------------------------------------+
+```
+**Tabs:**
+- 📂 Data: Load/process CSV, sample data, data table
+- 📊 Sample: Basic stats, class distribution, correlation
+- 🕵️‍♂️ Hidden: Anomaly detection, clustering, hidden patterns
+- 🤖 Prediction: Train model, predict redshift/magnitude
+- 🧭 Direction: Spatial/velocity/trajectory analysis
+
 ## 📸 Screenshots
 
 ![Dashboard](https://via.placeholder.com/800x450.png?text=AIS+Marine+Traffic+Analyzer+Dashboard)
